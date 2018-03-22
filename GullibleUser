@@ -1,0 +1,25 @@
+#include <iostream>using namespace std;
+int main(){       
+  int num;    
+  int input = 0;        
+  
+  cout << "Please enter any number other than " << input << ".\n";    
+  cin >> num;            
+  
+  while (num != input && input < 9){        
+    input++;        
+    cout << "Please enter any number other than " << input << ".\n";        
+    cin >> num;    
+  }        
+  
+  if (num == input){        
+    cout << "Hey, you weren't supposed to enter " << input << "!\n";    
+  }        
+  else {            
+    if (input == 9){                
+        cout << "Wow, you're more patient than I am. You win.";            
+    }        
+  }
+
+return 0;    
+}
