@@ -1,7 +1,10 @@
+//While( user == gullible ) exercise -- http://www.cplusplus.com/forum/articles/12974/ 
+
+
 #include <iostream>using namespace std;
 int main(){       
-  int num;    
-  int input = 0;        
+	int num;    
+	int input = 0;        
   
   cout << "Please enter any number other than " << input << ".\n";    
   cin >> num;            
